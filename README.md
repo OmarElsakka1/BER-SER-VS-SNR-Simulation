@@ -18,7 +18,7 @@ equal to (Number of incorrect received bits / Number of all bits) = 2 / 4  = 0.5
 If the number of levels are more than 2, we count Symbol Error Rate (SER). For example, if number of levels are 4 and the transmitted 
 signal is 11 01 11, and the received signal is 10 01 11, SER = (Number of incorrect symbols / Number of total symbols) = 1 / 3 = 0.3.
 Both BER and SER are determined with respect to Signal to Noise Ratio (SNR).
-The transmitted and received signal would be like (with number of levels ( M = 6 ) ):
+The transmitted and received signal would be like (with number of levels ( M = 64 ) ):
 
 ![Transmitted signal](https://user-images.githubusercontent.com/68303138/132756391-da180361-958c-45fd-abc9-b22163143ff6.jpg)
 
